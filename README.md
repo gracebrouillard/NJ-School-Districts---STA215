@@ -1,2 +1,14 @@
 # NJ-School-Districts---STA215
 This is a replication package for a final project in a STA215 class. It examines NJ School districts. We looked all the school districts in New Jersey and analyzed student population, graduation rates, local funding, and teacher's salaries. We sought to figure out how these variables interact to impact graduation rate.
+# Instructions 
+In order to use this package, open the "STA215-BROUILLARD.R" file, which contains the script used to perform the analysis of my project. To open the dataset, open the "raw_data.csv" file. 
+# Data
+The data collected for this project was of all school districts in New Jersey. The data was collected by looking at a wide range of data collected by the state and individual school districts. Breing that there is a variety of ways that school districts can be analyzed, we focused on the finances and services of the schools. For my project, I focus on the student population, graduation rate, local funding, and teacher's salaries. I analyzed local funding and teacher salaries by determing if the average of those varaibles in a district was above or below the state average. I use student population, local funding, and teacher's salaires to anaylze if they have a relationship with graduation rates. 
+# Operationalization 
+The concept of population was operationalized as the number of students in a school district. This was found using data collected by the state of New Jersey which gave the number of students in each school district. 
+
+The concept of graduation was operationalized as the percentage of students who graduated high school in a school district. This was also found using data collected by the state of New Jersey which gave the percentage of students who graduated high school in a given district. 
+
+The concept of funding was operationalized as the the money collected by school from local sources above the state average. We used a dummy variable to categorize the districts into categories of above and below the state average. In New Jersey about 67% of school district funding is from local sources. "0" represented the condition not being met and that school district was below the average funding from local sources and "1" represented the condtion being met and the school district was above the average funding from local sources. 
+
+The concept of salary was operationalized as the average salary for full-time teachers in each New Jersey school district above the state average. A dummy variable was also used for this variable to categorize districts into below and above average categories. "0" represented that the condition was not met and the average salary in the district was below state average and "1" represented the condition was met and the average salary is the district was above the state average. 
